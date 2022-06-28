@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .first{
+            padding-bottom: 60px;
+        }
+        .second strong{
+            display: block;
+            font-size: 3em;
+        }
+        img{
+            display: inline-block;
+        }
+        ol{
+            list-style: none;
+            display: flex;
+             justify-content:space-between;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            background-color: bisque;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+            margin: 10px;
+        }
+        header{
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            ol {
+                flex-direction:column;
+            }
+        }
+     </style>
+</head>
+<body>
+    <main>
+    <header>
+        <h1>Hola</h1>
+        <p>Cómo están</p>
+    </header>
+    <p class="first">Hola</p>
+    <p class="second"><strong>Where the street have no name:</strong> La mejor canción de U2</p>
+    <ol>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+    </ol>
+    </main>
+</body>
+</html>
